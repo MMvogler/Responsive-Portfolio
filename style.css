@@ -60,6 +60,16 @@ body {
     margin: 0 auto;
     clear: both;
   }
+
+  .work > h3 {
+    margin-top: -40px;
+    
+  }
+
+  .work {
+    float: left;
+    margin-right: 20px;
+  }
   
   h1,
   h2,
@@ -247,6 +257,8 @@ body {
     nav {
       padding-right: 20px;
     }
+
+
   }
   
   @media screen and (max-width:768px) {
@@ -259,8 +271,10 @@ body {
   
   @media screen and (max-width:640px) {
     
+   
     #logo {
       width: 100%;
+      max-width: 450px;
     }
 
     nav {
@@ -269,11 +283,9 @@ body {
     }
 
     .main-section {
-      font-size: 14px;
-      margin-top: 40px;
-      margin-bottom: 200px;
-      margin-left: 1px;
-      margin-right: 200px;
+    
+      max-width: 450px;
     }
-    }
+
+
   }
